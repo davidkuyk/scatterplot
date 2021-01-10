@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Helvetica, sans-serif;
+}
+
+svg {
+  background-color: white;
+}
+
+#title {
+  font-size: 30px;
+}
+
+#tooltip {
+  visibility: hidden;
+  width: auto;
+  height: auto;
+}
+
+.dot {
+  transition: all .2s ease-in-out;
+}
+
+.dot:hover {
+  r: 10;
+}
